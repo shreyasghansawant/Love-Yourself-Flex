@@ -1,0 +1,221 @@
+*{
+  margin: 0px;
+}
+nav{
+  background-color: #333;
+  font-family: 'Architects Daughter', cursive;
+  display: flex;
+  justify-content: space-between;
+}
+ul{
+  list-style-type: none;
+  padding: 0px;
+
+  display: flex;
+}
+ul li{
+  padding: 13px 25px;
+}
+ul li:hover{
+  background-color: black;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+#website-name{
+  padding: 13px 25px;
+}
+
+
+.main-page{
+  display: flex;
+}
+
+.start{
+  flex-basis: 25%;
+  background-color: black;
+}
+.start img, .end img{
+  width: 94%;
+  margin: 10px;
+  height: 179px;
+}
+.middle{
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.middle-1{
+  font-size: 48px;
+  font-family: 'Lobster', cursive;
+  border: 1px solid black;
+  padding: 86.5px;
+}
+
+.middle-2{
+  flex-basis: 50%;
+  display: flex;
+}
+.m-start{
+  flex-basis: 25%;
+}
+.s1{
+  border: 1px solid black;
+  padding: 18.6px;
+  background-color: white;
+}
+.s2{
+  border: 1px solid black;
+  padding: 18.6px;
+  background-color: black;
+}
+.m-middle{
+  flex-basis: 50%;
+  font-family: 'Architects Daughter', cursive;
+  color: white;
+  text-align: center;
+}
+.m-middle p{
+  padding: 14px 2.5px;
+  background-color: black;
+}
+
+.m-end{
+  flex-basis: 25%;
+}
+
+.end{
+  background-color: black;
+  flex-basis: 25%;
+}
+
+
+/* Colors of Life */
+.main-color{
+  display: flex;
+  background-color: yellow;
+}
+.color-1, .color-2{
+  flex-grow: 1;
+  flex-basis: 50%;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.color-1{
+  margin-right: 15px;
+  background-color: blue;
+}
+.color-2{
+  margin-left: 15px;
+  background-color: red;
+}
+
+.color-1-1, .color-1-2, .color-2-1, .color-2-2{
+  flex-grow: 1;
+  margin: 35px;
+  flex-basis: 50%;
+  display: flex;
+}
+.color-1-1{
+  background-color: orange;
+  margin-bottom: 17.5px;
+}
+.color-1-2{
+  background-color: magenta;
+  margin-top: 17.5px;
+}
+.color-2-1{
+  background-color: green;
+  margin-bottom: 17.5px;
+}
+.color-2-2{
+  background-color: cyan;
+  margin-top: 17.5px;
+}
+
+.color-all{
+  flex-grow: 1;
+  flex-basis: 50%;
+  margin: 40px;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  font-family: 'Architects Daughter', cursive;
+}
+#color-1-1-1{
+  background: skyblue;
+  margin-right: 20px;
+}
+#color-1-1-2{
+  background: violet;
+  margin-left: 20px;
+}
+#color-1-2-1{
+  background: lime;
+  margin-right: 20px;
+}
+#color-1-2-2{
+  background: gold;
+  margin-left: 20px;
+}
+
+#color-2-1-1{
+  background: blueviolet;
+  margin-right: 20px;
+}
+#color-2-1-2{
+  background: pink;
+  margin-left: 20px;
+}
+#color-2-2-1{
+  background: lightgreen;
+  margin-right: 20px;
+}
+#color-2-2-2{
+  background: orangered;
+  margin-left: 20px;
+}
+
+/* Gallery */
+.last-page{
+  background-color: black;
+}
+.last-page h3{
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Architects Daughter', cursive;
+}
+.img-all{
+  display: flex;
+}
+.img-c{
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+  margin: 7px;
+}
+.img-c img{
+  margin: 7px;
+  width: 100%;
+}
+.img-c-l{
+  flex-basis: 75%;
+}
+.img-c-s{
+  flex-basis: 25%;
+}
+
+footer{
+  background-color: #333;
+}
+footer h3{
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-family: 'Architects Daughter', cursive;
+}
